@@ -25,13 +25,7 @@ export default function App() {
     const [chute, setChute] = useState("")                          // estado do input cotrolado
     const [corPalavra, setCorPalavra] = useState("black")           // trocar classname da cor do h1
 
-    function iniciarJogo() {
-        setDesabilitaInput(false)
-        setLetrasUsadas([])
-        sortearPalavra()
-        setErros(0)
-        setChute("")
-        setCorPalavra("black")
+ 
     }
 
     function finalizarJogo(){
